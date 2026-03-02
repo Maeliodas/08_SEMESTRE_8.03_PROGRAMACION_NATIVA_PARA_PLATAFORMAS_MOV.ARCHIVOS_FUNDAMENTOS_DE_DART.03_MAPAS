@@ -1,1 +1,14 @@
-Nuevo archivo
+void main() {
+  final Map<String, dynamic>pokemon = {
+    'name': 'Ditto',
+    'HP':100,
+    'isAlive':true,
+    'abilities':<String>['impostor'],
+    'sprites': <int, String>{
+      1:'Ditto/front.png',
+      2:'Ditto/back.png'
+    } //Mapa dentro de un mapa
+  }; //Los mapas se contruyen con {} o el contenido deb ser pares llaves valor, es decir, identificador con valor del mismo
+  
+  print(pokemon);
+}
